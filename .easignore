@@ -1,0 +1,103 @@
+# ──────────────────────────────────────────────
+# EAS Build Ignore – SoilSync-v2
+# Only files needed by Metro / Expo build are
+# uploaded to EAS servers.
+# ──────────────────────────────────────────────
+
+# ── Node / package manager ────────────────────
+node_modules/
+
+npm-debug.*
+*.log
+
+# ── Expo / Metro generated artifacts ─────────
+.expo/
+dist/
+web-build/
+.metro-health-check*
+
+# ── Native project dirs (EAS prebuilds these) ─
+android/
+ios/
+
+# ── Keep patches so postinstall can apply them ─
+!patches/
+
+# ── Secrets & local environment ───────────────
+.env
+.env.local
+.env.example
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+xlocal.properties
+
+# ── OS / editor artifacts ─────────────────────
+.DS_Store
+*.orig.*
+.vscode/
+.idea/
+.agents/
+
+# ── Git internals ─────────────────────────────
+.git/
+.gitattributes
+.gitignore
+
+# ── Backend / sibling projects ────────────────
+admin/
+sms-backend/
+supabase/
+scripts/
+backups/
+
+# ── Database, migrations & infra configs ──────
+migrations/
+*.sql
+**/*.sql
+*.sqlite
+*.sqlite3
+*.db
+*stream*.yml
+*stream*.yaml
+docker-compose*.yml
+codemagic.yaml
+cesconfig.jsonc
+
+# ── Documentation & notes ─────────────────────
+*.md
+docs/
+notes/
+privacy-policy.md
+terms.md
+
+# ── Large/junk root-level files ───────────────
+crash.log
+fresh.log
+eslint_output.txt
+expo-icons.zip
+#crops.json
+test-db.js
+test-db.ts
+CHANGELOG-TODO-GROUPING.md
+EDGE_MODEL_UPDATE.md
+SUPABASE_SCHEMA.md
+about-app.md
+
+# ── Tests & Test Mocks ────────────────────────
+test/
+__tests__/
+*.test.ts
+*.test.tsx
+*.test.js
+*.test.jsx
+*.spec.ts
+*.spec.tsx
+jest.config.js
+coverage/
+
+# ── Dev/lint tooling (not needed at build time) ─
+eslint.config.js
+prettier.config.js

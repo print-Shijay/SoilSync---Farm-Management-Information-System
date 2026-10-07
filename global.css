@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-espresso: #1C120C;
+    --color-cognac: #8C4522;
+    --color-taupe: #8C7C70;
+    --color-gold: #D99C2B;
+    --color-champagne: #FBF8F4;
+  }
+}

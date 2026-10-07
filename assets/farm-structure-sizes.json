@@ -1,0 +1,37 @@
+{
+  "unit": "meters",
+  "moveStepMeters": 0.1,
+  "rotationStepDegrees": 15,
+  "structures": {
+    "bed": {
+      "typeId": 1,
+      "label": "Bed",
+      "dimensionsMeters": {
+        "length": 0.9144,
+        "width": 0.4572,
+        "height": 0.3048
+      },
+      "modelScale": {
+        "x": 0.381,
+        "y": 1.016,
+        "z": 0.381
+      },
+      "minClearanceMeters": 0.35
+    },
+    "trellis": {
+      "typeId": 2,
+      "label": "Trellis",
+      "dimensionsMeters": {
+        "length": 0.701,
+        "width": 0.043,
+        "height": 0.9144
+      },
+      "modelScale": {
+        "x": 0.61,
+        "y": 0.61,
+        "z": 0.61
+      },
+      "minClearanceMeters": 0.37
+    }
+  }
+}

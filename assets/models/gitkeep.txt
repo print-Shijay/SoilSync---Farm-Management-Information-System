@@ -1,0 +1,3 @@
+# Place model files here
+# - soilsyncHealth.tflite
+# - soilsyncPlant.tflite

@@ -1,0 +1,89 @@
+{
+  "categories": [
+    "All",
+    "General",
+    "Sensors & Diagnostics",
+    "Farm & Beds",
+    "Sync & Offline",
+    "Account & Security"
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "General",
+      "question": "What is SoilSync and how does it help my farm?",
+      "answer": "SoilSync is an intelligent smart-agriculture platform combining real-time IoT soil sensor telemetry with edge AI computer vision. It allows you to monitor soil moisture, temperature, pH, and NPK levels, detect crop diseases early, map custom garden beds in 3D, and schedule farming tasks effectively.",
+      "tags": ["about", "overview", "features", "farming"]
+    },
+    {
+      "id": "faq-2",
+      "category": "General",
+      "question": "Do I need an active internet connection to use SoilSync?",
+      "answer": "No! SoilSync is built with an offline-first architecture. You can record measurements, inspect crop recommendations, view your 3D farm layout, and manage tasks completely offline. Whenever your device reconnects to Wi-Fi or cellular data, all changes automatically synchronize with the cloud.",
+      "tags": ["offline", "internet", "connection", "sync"]
+    },
+    {
+      "id": "faq-3",
+      "category": "Sensors & Diagnostics",
+      "question": "How do I pair a Bluetooth soil sensor device?",
+      "answer": "Navigate to the Farm overview or Sensor tab, ensure your device's Bluetooth is turned on, and hold the power button on your SoilSync sensor probe for 3 seconds to enter pairing mode. Select your sensor from the detected devices list to start streaming real-time telemetry.",
+      "tags": ["bluetooth", "sensor", "pairing", "hardware", "device"]
+    },
+    {
+      "id": "faq-4",
+      "category": "Sensors & Diagnostics",
+      "question": "How accurate is the AI crop and soil diagnostic scanner?",
+      "answer": "Our edge AI diagnostic model runs on-device neural networks trained on over 50,000 agricultural sample images. For optimal accuracy, ensure good natural lighting, focus closely on affected leaf areas or soil cross-sections, and avoid excessive motion blur when capturing photos.",
+      "tags": ["ai", "camera", "diagnostics", "disease", "scanner"]
+    },
+    {
+      "id": "faq-5",
+      "category": "Sensors & Diagnostics",
+      "question": "What parameters do the soil sensors measure?",
+      "answer": "SoilSync multi-parameter probes measure volumetric water content (soil moisture %), soil temperature (°C/°F), pH balance (acidity/alkalinity), Electrical Conductivity (EC for salinity), and estimated Nitrogen (N), Phosphorus (P), and Potassium (K) nutrient concentrations.",
+      "tags": ["sensor", "npk", "moisture", "temperature", "ph", "ec"]
+    },
+    {
+      "id": "faq-6",
+      "category": "Farm & Beds",
+      "question": "How do I create and customize a 3D farm layout?",
+      "answer": "Go to the Farms tab, select or create a farm, and tap '3D Farm Layout Builder'. You can place raised beds, trellises, irrigation lines, and adjust dimensions and orientations to match your actual field geography.",
+      "tags": ["farm", "beds", "3d", "layout", "builder", "unity"]
+    },
+    {
+      "id": "faq-7",
+      "category": "Farm & Beds",
+      "question": "What are Succession Plans and how do they work?",
+      "answer": "Succession planting automatically calculates staggered sowing and harvesting schedules based on your crop growth cycles and maturity dates. It generates daily and weekly to-do tasks so your garden beds maintain continuous productivity throughout the season.",
+      "tags": ["succession", "planting", "crop", "schedule", "harvest"]
+    },
+    {
+      "id": "faq-8",
+      "category": "Sync & Offline",
+      "question": "How do I know if my data is synchronized with the cloud?",
+      "answer": "You can check the sync indicator in Settings or the top header. When green, all local edits are synchronized with Supabase. If you have pending offline changes, the app displays a sync status banner and will upload them automatically when connectivity is restored.",
+      "tags": ["sync", "cloud", "status", "pending", "backup"]
+    },
+    {
+      "id": "faq-9",
+      "category": "Sync & Offline",
+      "question": "Can multiple farmers collaborate on the same farm?",
+      "answer": "Yes! Farm owners can invite team members with specific roles (Owner, Manager, or Worker). Collaborators receive real-time sync updates and shared access to farm beds, to-do lists, and telemetry records.",
+      "tags": ["collaboration", "members", "team", "permissions", "share"]
+    },
+    {
+      "id": "faq-10",
+      "category": "Account & Security",
+      "question": "How do I enable PIN screen lock or Two-Factor Authentication?",
+      "answer": "Go to Settings > Privacy & Security. Under 'Security & App Lock', set up Two-Factor Authentication (TOTP) or set up a 4-to-6 digit numeric PIN passcode to secure your farm data.",
+      "tags": ["pin", "lock", "security", "passcode", "2fa", "mfa"]
+    },
+    {
+      "id": "faq-11",
+      "category": "Account & Security",
+      "question": "How can I export or delete my farm telemetry and account data?",
+      "answer": "In Settings > Privacy & Security, you can request an instant JSON export of your complete telemetry history, farm blueprints, and diagnostic records. To permanently delete your account, visit Settings > Delete Account.",
+      "tags": ["privacy", "export", "delete", "account", "gdpr"]
+    }
+  ]
+}

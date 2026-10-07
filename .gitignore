@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+
+# Expo / React Native generated files
+.expo/
+dist/
+web-build/
+.metro-health-check*
+npm-debug.*
+*.log
+
+# Native build output and local native config
+android/
+android/.gradle/
+android/**/build/
+android/local.properties
+ios/
+modules/**/android/.gradle/
+modules/**/android/build/
+
+# Secrets and local environment
+.env
+.env.local
+.env.example
+.env*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+xlocal.properties
+
+# OS / editor
+.DS_Store
+*.orig.*
+.idea/
+idea/
+.agents/
+agents/
+
+# Folders
+backups/
+docs/
+patches/
+pathes/
+scripts/
+supabase/
+admin/
+sms-backend/
+
+# Build & CI configs
+codemagic.yaml
+prettier.config.js
+prittier.config.js
+
+# Logs and archives
+crash.log
+crash.loh
+fresh.log
+expo-icons.zip
+
+# Documentation & Markdown
+about-app.md
+CHANGELOG-TODO-GROUPING.md
+EDGE_MODEL_UPDATE.md
+privacy-policy.md
+SUPABASE_SCHEMA.md
+terms.md
+
+# Test scripts
+test-db.js
+test-db.ts
